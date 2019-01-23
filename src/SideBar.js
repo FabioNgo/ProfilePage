@@ -13,7 +13,7 @@ class SideBar extends Component {
             <div className="side-bar">
                 <CoverPicture/>
                 <ProfilePicture/>
-                <ul>
+                <ul className="menu">
                     <li><MenuItem text="Home" url=""/></li>
                     <li><MenuItem text="About" url="about"/></li>
                     <li><MenuItem text="Work History" url="work-history"/></li>

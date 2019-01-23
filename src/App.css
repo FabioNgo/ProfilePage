@@ -9,12 +9,20 @@
 
 }
 .profile-picture-holder{
-    min-height: 15%;
-    max-height: 15%;
-    margin-top: -7.5%;
+    min-height: 20%;
+    max-height: 20%;
+    margin-top: -10%;
 
-    padding-right: 40%;
-    padding-left: 40%;
+    padding-right: 35%;
+    padding-left: 35%;
+}
+.link{
+
+    text-decoration: none;
+}
+.menu {
+    list-style-type: none;
+
 }
 .profile-picture-holder .profile-picture{
     background-image: url("img/logo.svg")  ;

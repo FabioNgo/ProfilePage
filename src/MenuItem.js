@@ -12,7 +12,7 @@ class MenuItem extends Component {
     render() {
         return (
             <div className="menu-item">
-                <Link to={this.state.url}> {this.state.text} </Link>
+                <Link className="link" to={this.state.url}> {this.state.text} </Link>
             </div>
         );
     }
