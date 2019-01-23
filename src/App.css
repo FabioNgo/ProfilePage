@@ -10,12 +10,16 @@
 }
 .profile-picture{
     min-height: 10%;
-    margin-top: -100px;
+    /*margin-top: -100px;*/
 
     background: antiquewhite;
 }
 .cover-picture {
-    background-color: cyan;
+    background-image: url("img/cover.jpg")  ;
+
+    background-size: contain;
+
+    /*backgroundi*/
     min-width: 100%;
     max-width: 100%;
     padding-top: 56.25%;
