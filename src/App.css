@@ -8,6 +8,9 @@
 
 
 }
+.main {
+  grid-area: main;
+}
 .header {
   grid-area: main;
 }

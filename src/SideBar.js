@@ -14,6 +14,7 @@ class SideBar extends Component {
                 <CoverPicture/>
                 <ProfilePicture/>
                 <ul>
+                    <li><MenuItem text="Home" url=""/></li>
                     <li><MenuItem text="About" url="about"/></li>
                     <li><MenuItem text="Work History" url="work-history"/></li>
                     <li><MenuItem text="Academic History" url="academic-history"/></li>

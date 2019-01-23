@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import {Link} from "react-router-dom";
 
 class MenuItem extends Component {
     constructor(props){
@@ -11,7 +12,7 @@ class MenuItem extends Component {
     render() {
         return (
             <div className="menu-item">
-                <a href={this.state.url}> {this.state.text} </a>
+                <Link to={this.state.url}> {this.state.text} </Link>
             </div>
         );
     }
