@@ -8,6 +8,18 @@
 
 
 }
+.profile-picture{
+    min-height: 10%;
+    margin-top: -100px;
+
+    background: antiquewhite;
+}
+.cover-picture {
+    background-color: cyan;
+    min-width: 100%;
+    max-width: 100%;
+    padding-top: 56.25%;
+}
 .main {
   grid-area: main;
 }
