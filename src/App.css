@@ -5,34 +5,43 @@
 }
 .side-bar {
   grid-area: side-bar;
-
+    background-color: #61dafb;
+    min-height: 100vh;
 
 }
 .profile-picture-holder{
-    min-height: 20%;
-    max-height: 20%;
-    margin-top: -10%;
 
-    padding-right: 35%;
-    padding-left: 35%;
-}
-.link{
 
-    text-decoration: none;
+    margin-top: -20%;
+    min-width: 40%;
+    max-width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    align-content: center;
+    border-radius: 100%;
+    border: solid 0.5vh whitesmoke;
+    background-color: azure;
 }
 .menu {
     list-style-type: none;
-
+    margin-top: 0;
+    padding-left: 10%;
 }
-.profile-picture-holder .profile-picture{
-    background-image: url("img/logo.svg")  ;
-    background-size: contain;
+.profile-picture{
+
+    position: relative;
+    background-image: url("img/cover.jpg");
+    border-radius: 100%;
+    background-position: top center;
+    background-size: cover;
     background-repeat: no-repeat;
     min-height: 100%;
     max-height: 100%;
     min-width: 100%;
     max-width: 100%;
     padding-top: 100%;
+    border-color: black;
+
 }
 .cover-picture {
     background-image: url("img/cover.jpg")  ;
@@ -43,6 +52,10 @@
     min-width: 100%;
     max-width: 100%;
     padding-top: 56.25%;
+}
+.menu-item {
+    font-size: 2vh;
+    text-decoration: none;
 }
 .main {
   grid-area: main;

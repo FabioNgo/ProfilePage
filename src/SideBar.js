@@ -12,7 +12,7 @@ class SideBar extends Component {
         return (
             <div className="side-bar">
                 <CoverPicture/>
-                <ProfilePicture/>
+                <ProfilePicture src={require("./img/cover.jpg")}/>
                 <ul className="menu">
                     <li><MenuItem text="Home" url=""/></li>
                     <li><MenuItem text="About" url="about"/></li>
